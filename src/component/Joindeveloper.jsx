@@ -37,10 +37,10 @@ const Joindeveloper = () => {
                                             placement="right"
                                             delay={{ show: 250, hide: 400 }}
                                             overlay={renderTooltip}>
-                                           
-                                           <FontAwesomeIcon icon={faCoffee} />
+
+                                            <FontAwesomeIcon icon={faCoffee} />
                                         </OverlayTrigger>
-                                       
+
                                     </div>
                                 </div>
                             </div>
@@ -57,14 +57,14 @@ const Joindeveloper = () => {
                                         <h4 class="card-title ">Developer</h4>
                                     </div>
                                     <div class="col-3">
-                                    <OverlayTrigger
+                                        <OverlayTrigger
                                             placement="right"
                                             delay={{ show: 250, hide: 400 }}
                                             overlay={renderTooltip}>
-                                           
-                                           <FontAwesomeIcon icon={faCoffee} />
+
+                                            <FontAwesomeIcon icon={faCoffee} />
                                         </OverlayTrigger>
-                                       
+
                                     </div>
                                 </div>
                             </div>
@@ -82,14 +82,14 @@ const Joindeveloper = () => {
                                     </div>
                                     <div class="col-3">
 
-                                    <OverlayTrigger
+                                        <OverlayTrigger
                                             placement="right"
                                             delay={{ show: 250, hide: 400 }}
                                             overlay={renderTooltip}>
-                                           
-                                           <FontAwesomeIcon icon={faCoffee} />
+
+                                            <FontAwesomeIcon icon={faCoffee} />
                                         </OverlayTrigger>
-                                       
+
                                     </div>
                                 </div>
                             </div>
@@ -106,14 +106,14 @@ const Joindeveloper = () => {
                                         <h4 class="card-title "> Developer</h4>
                                     </div>
                                     <div class="col-3">
-                                    <OverlayTrigger
+                                        <OverlayTrigger
                                             placement="right"
                                             delay={{ show: 250, hide: 400 }}
                                             overlay={renderTooltip}>
-                                           
-                                           <FontAwesomeIcon icon={faCoffee} />
+
+                                            <FontAwesomeIcon icon={faCoffee} />
                                         </OverlayTrigger>
-                                       
+
                                     </div>
                                 </div>
                             </div>
@@ -130,14 +130,14 @@ const Joindeveloper = () => {
                                         <h4 class="card-title ">Developer</h4>
                                     </div>
                                     <div class="col-3">
-                                    <OverlayTrigger
+                                        <OverlayTrigger
                                             placement="right"
                                             delay={{ show: 250, hide: 400 }}
                                             overlay={renderTooltip}>
-                                           
-                                           <FontAwesomeIcon icon={faCoffee} />
+
+                                            <FontAwesomeIcon icon={faCoffee} />
                                         </OverlayTrigger>
-                                       
+
                                     </div>
                                 </div>
                             </div>
@@ -154,14 +154,14 @@ const Joindeveloper = () => {
                                         <h4 class="card-title "> Developer</h4>
                                     </div>
                                     <div class="col-3">
-                                    <OverlayTrigger
+                                        <OverlayTrigger
                                             placement="right"
                                             delay={{ show: 250, hide: 400 }}
                                             overlay={renderTooltip}>
-                                           
-                                           <FontAwesomeIcon icon={faCoffee} />
+
+                                            <FontAwesomeIcon icon={faCoffee} />
                                         </OverlayTrigger>
-                                       
+
                                     </div>
                                 </div>
                             </div>
@@ -178,14 +178,14 @@ const Joindeveloper = () => {
                                         <h4 class="card-title ">Developer</h4>
                                     </div>
                                     <div class="col-3">
-                                    <OverlayTrigger
+                                        <OverlayTrigger
                                             placement="right"
                                             delay={{ show: 250, hide: 400 }}
                                             overlay={renderTooltip}>
-                                           
-                                           <FontAwesomeIcon icon={faCoffee} />
+
+                                            <FontAwesomeIcon icon={faCoffee} />
                                         </OverlayTrigger>
-                                       
+
                                     </div>
                                 </div>
                             </div>
@@ -202,14 +202,14 @@ const Joindeveloper = () => {
                                         <h4 class="card-title "> Developer</h4>
                                     </div>
                                     <div class="col-3">
-                                    <OverlayTrigger
+                                        <OverlayTrigger
                                             placement="right"
                                             delay={{ show: 250, hide: 400 }}
                                             overlay={renderTooltip}>
-                                           
-                                           <FontAwesomeIcon icon={faCoffee} />
+
+                                            <FontAwesomeIcon icon={faCoffee} />
                                         </OverlayTrigger>
-                                       
+
                                     </div>
                                 </div>
                             </div>
