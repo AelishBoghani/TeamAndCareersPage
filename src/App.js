@@ -5,10 +5,6 @@ import Text from './component/Text';
 import Teambar from './component/Teambar';
 import Joinbar from './component/Joinbar';
 
-
-
-
-
 function App() {
   return (
     <>
