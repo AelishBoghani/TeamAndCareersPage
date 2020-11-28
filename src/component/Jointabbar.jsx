@@ -1,6 +1,4 @@
 import React from 'react';
-import Paper from '@material-ui/core/Paper';
-import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Joindeveloper from './Joindeveloper';
@@ -9,7 +7,7 @@ import Joinoperations from './Joinoperations';
 import Joinyounglearders from './Joinyoungleaders';
 import Joinyoungambassadors from './Joinyoungambassadors';
 import SwipeableViews from 'react-swipeable-views';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import {useTheme } from '@material-ui/core/styles';
 import './Text.css';
 
 
@@ -54,7 +52,7 @@ const handleChangeIndex = (index) => {
        */}
       <Tabs value={newValue} onChange={handleChange} aria-label="simple tabs example"  indicatorColor="primary"
         textColor="primary"   variant="scrollable"
-        scrollButtons="on" centered
+        scrollButtons="on" 
         >
           <Tab label="DEVELOPERS" />
           <Tab label="MARKETING" />

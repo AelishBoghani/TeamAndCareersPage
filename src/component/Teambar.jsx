@@ -1,9 +1,6 @@
 import React from 'react';
-// import logo from '../component';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Text.css';
-import * as ReactNavbar from 'react-bootstrap';
-import Nav from 'react-bootstrap/Nav';
 import Tabbar from './Tabbar';
 
 

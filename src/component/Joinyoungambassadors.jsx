@@ -5,7 +5,7 @@ import './animate.css';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import { Tooltip } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faQuestionCircle} from '@fortawesome/free-solid-svg-icons';
 
 const renderTooltip = (props) => (
     <Tooltip id="button-tooltip" {...props}>
@@ -20,199 +20,200 @@ const Joinyoungambassadors = () => {
   return (
     <>
     
-    <div class="container cbox">
-                <div class="row rowbox">
+    <div className="container cbox">
+                <div className="row rowbox">
 
-                    <div class="col-md-3 col-sm-6 colbox ">
-                        <div class="card classcard" >
-                            <div class="card-header text-center">
-                                <div class="row">
-                                    <div class="col-9">
-                                        <h4 class="card-title ">Developer</h4>
+                   
+                    <div className="col-md-3 col-sm-6 colbox ">
+                        <div className="card classcard" >
+                            <div className="card-header text-center">
+                                <div className="row">
+                                    <div className="col-9">
+                                        <h4 className="card-title "> Developer</h4>
                                     </div>
-                                    <div class="col-3">
-                                        <OverlayTrigger
-                                            placement="right"
-                                            delay={{ show: 250, hide: 400 }}
-                                            overlay={renderTooltip}>
-                                           
-                                           <FontAwesomeIcon icon={faCoffee} />
-                                        </OverlayTrigger>
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="#" class="btn btn-primary">Apply Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 colbox ">
-                        <div class="card classcard" >
-                            <div class="card-header text-center">
-                                <div class="row">
-                                    <div class="col-9">
-                                        <h4 class="card-title ">Developer</h4>
-                                    </div>
-                                    <div class="col-3">
-                                    <OverlayTrigger
-                                            placement="right"
-                                            delay={{ show: 250, hide: 400 }}
-                                            overlay={renderTooltip}>
-                                           
-                                           <FontAwesomeIcon icon={faCoffee} />
-                                        </OverlayTrigger>
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer text-center">
-                                <a href="#" class="btn btn-primary">Apply Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 colbox ">
-                        <div class="card classcard" >
-                            <div class="card-header text-center">
-                                <div class="row">
-                                    <div class="col-9">
-                                        <h4 class="card-title "> Developer</h4>
-                                    </div>
-                                    <div class="col-3">
+                                    <div className="col-3">
 
                                     <OverlayTrigger
                                             placement="right"
                                             delay={{ show: 250, hide: 400 }}
                                             overlay={renderTooltip}>
                                            
-                                           <FontAwesomeIcon icon={faCoffee} />
+                                           <FontAwesomeIcon icon={faQuestionCircle} />
                                         </OverlayTrigger>
                                        
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-footer text-center">
-                                <a href="#" class="btn btn-primary">Apply Now</a>
+                            <div className="card-footer text-center">
+                                <a href="#" className="btn btn-primary">Apply Now</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 colbox ">
-                        <div class="card classcard" >
-                            <div class="card-header text-center">
-                                <div class="row">
-                                    <div class="col-9">
-                                        <h4 class="card-title "> Developer</h4>
+                    <div className="col-md-3 col-sm-6 colbox ">
+                        <div className="card classcard" >
+                            <div className="card-header text-center">
+                                <div className="row">
+                                    <div className="col-9">
+                                        <h4 className="card-title "> Developer</h4>
                                     </div>
-                                    <div class="col-3">
+                                    <div className="col-3">
                                     <OverlayTrigger
                                             placement="right"
                                             delay={{ show: 250, hide: 400 }}
                                             overlay={renderTooltip}>
                                            
-                                           <FontAwesomeIcon icon={faCoffee} />
+                                           <FontAwesomeIcon icon={faQuestionCircle} />
                                         </OverlayTrigger>
                                        
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-footer text-center">
-                                <a href="#" class="btn btn-primary">Apply Now</a>
+                            <div className="card-footer text-center">
+                                <a href="#" className="btn btn-primary">Apply Now</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 colbox ">
-                        <div class="card classcard" >
-                            <div class="card-header text-center">
-                                <div class="row">
-                                    <div class="col-9">
-                                        <h4 class="card-title ">Developer</h4>
+                    <div className="col-md-3 col-sm-6 colbox ">
+                        <div className="card classcard" >
+                            <div className="card-header text-center">
+                                <div className="row">
+                                    <div className="col-9">
+                                        <h4 className="card-title ">Developer</h4>
                                     </div>
-                                    <div class="col-3">
+                                    <div className="col-3">
                                     <OverlayTrigger
                                             placement="right"
                                             delay={{ show: 250, hide: 400 }}
                                             overlay={renderTooltip}>
                                            
-                                           <FontAwesomeIcon icon={faCoffee} />
+                                           <FontAwesomeIcon icon={faQuestionCircle} />
                                         </OverlayTrigger>
                                        
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-footer text-center">
-                                <a href="#" class="btn btn-primary">Apply Now</a>
+                            <div className="card-footer text-center">
+                                <a href="#" className="btn btn-primary">Apply Now</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 colbox ">
-                        <div class="card classcard" >
-                            <div class="card-header text-center">
-                                <div class="row">
-                                    <div class="col-9">
-                                        <h4 class="card-title "> Developer</h4>
+                    <div className="col-md-3 col-sm-6 colbox ">
+                        <div className="card classcard" >
+                            <div className="card-header text-center">
+                                <div className="row">
+                                    <div className="col-9">
+                                        <h4 claclassNamess="card-title "> Developer</h4>
                                     </div>
-                                    <div class="col-3">
+                                    <div className="col-3">
                                     <OverlayTrigger
                                             placement="right"
                                             delay={{ show: 250, hide: 400 }}
                                             overlay={renderTooltip}>
                                            
-                                           <FontAwesomeIcon icon={faCoffee} />
+                                           <FontAwesomeIcon icon={faQuestionCircle} />
                                         </OverlayTrigger>
                                        
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-footer text-center">
+                            <div className="card-footer text-center">
                                 <a href="#" class="btn btn-primary">Apply Now</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 colbox ">
-                        <div class="card classcard" >
-                            <div class="card-header text-center">
-                                <div class="row">
-                                    <div class="col-9">
-                                        <h4 class="card-title ">Developer</h4>
+                    <div className="col-md-3 col-sm-6 colbox ">
+                        <div className="card classcard" >
+                            <div className="card-header text-center">
+                                <div className="row">
+                                    <div className="col-9">
+                                        <h4 className="card-title ">Developer</h4>
                                     </div>
-                                    <div class="col-3">
+                                    <div className="col-3">
                                     <OverlayTrigger
                                             placement="right"
                                             delay={{ show: 250, hide: 400 }}
                                             overlay={renderTooltip}>
                                            
-                                           <FontAwesomeIcon icon={faCoffee} />
+                                           <FontAwesomeIcon icon={faQuestionCircle} />
                                         </OverlayTrigger>
                                        
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-footer text-center">
-                                <a href="#" class="btn btn-primary">Apply Now</a>
+                            <div className="card-footer text-center">
+                                <a href="#" className="btn btn-primary">Apply Now</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-6 colbox ">
-                        <div class="card classcard" >
-                            <div class="card-header text-center">
-                                <div class="row">
-                                    <div class="col-9">
-                                        <h4 class="card-title "> Developer</h4>
+                    <div className="col-md-3 col-sm-6 colbox ">
+                        <div className="card classcard" >
+                            <div className="card-header text-center">
+                                <div className="row">
+                                    <div className="col-9">
+                                        <h4 className="card-title "> Developer</h4>
                                     </div>
-                                    <div class="col-3">
+                                    <div className="col-3">
                                     <OverlayTrigger
                                             placement="right"
                                             delay={{ show: 250, hide: 400 }}
                                             overlay={renderTooltip}>
                                            
-                                           <FontAwesomeIcon icon={faCoffee} />
+                                           <FontAwesomeIcon icon={faQuestionCircle} />
                                         </OverlayTrigger>
                                        
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-footer text-center">
-                                <a href="#" class="btn btn-primary">Apply Now</a>
+                            <div className="card-footer text-center">
+                                <a href="#" className="btn btn-primary">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-3 col-sm-6 colbox ">
+                        <div className="card classcard" >
+                            <div className="card-header text-center">
+                                <div className="row">
+                                    <div className="col-9">
+                                        <h4 className="card-title "> Developer</h4>
+                                    </div>
+                                    <div className="col-3">
+                                    <OverlayTrigger
+                                            placement="right"
+                                            delay={{ show: 250, hide: 400 }}
+                                            overlay={renderTooltip}>
+                                           
+                                           <FontAwesomeIcon icon={faQuestionCircle} />
+                                        </OverlayTrigger>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card-footer text-center">
+                                <a href="#" className="btn btn-primary">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-3 col-sm-6 colbox ">
+                        <div className="card classcard" >
+                            <div className="card-header text-center">
+                                <div className="row">
+                                    <div className="col-9">
+                                        <h4 className="card-title "> Developer</h4>
+                                    </div>
+                                    <div className="col-3">
+                                    <OverlayTrigger
+                                            placement="right"
+                                            delay={{ show: 250, hide: 400 }}
+                                            overlay={renderTooltip}>
+                                           
+                                           <FontAwesomeIcon icon={faQuestionCircle} />
+                                        </OverlayTrigger>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card-footer text-center">
+                                <a href="#" className="btn btn-primary">Apply Now</a>
                             </div>
                         </div>
                     </div>
